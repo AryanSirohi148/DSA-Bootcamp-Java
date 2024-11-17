@@ -10,6 +10,7 @@ It is useful to think of an object’s identity as the place where its value is 
 The behavior of an object is the effect of data-type operations.
 
 The dot operator links the name of the object with the name of an instance variable.
+dot operator is use to access INSTANCE variable and instance function.
 Although commonly referred to as the dot operator, the formal specification for Java categorizes the . as a separator.
 The 'new' keyword dynamically allocates(that is, allocates at run time)memory for an object & returns a reference to it.
 This reference is, more or less, the address in memory of the object allocated by new.
@@ -30,6 +31,7 @@ classname class-var = new classname ( );
 Here, class-var is a variable of the class type being created. The classname is the name of the class that is being
 instantiated. The class name followed by parentheses specifies the constructor for the class. A constructor defines
 what occurs when an object of a class is created.
+constructor work is to initilise the value of Instance variable
 
 You might be wondering why you do not need to use new for such things as integers or characters.
 The answer is that Java’s primitive types are not implemented as objects.
