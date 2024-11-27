@@ -38,8 +38,8 @@ you can declare a static block that gets executed exactly once, when the class i
      class UseStatic {
        static int a = 3;
        static int b;
-       static void meth(int x) {
-         System.out.println("x = " + x);
+       static void meth(int x) {             //NOTE: we can access the static variable in static function 
+         System.out.println("x = " + x);     //without taking them in argument bec both belongs to a class.
          System.out.println("a = " + a);
          System.out.println("b = " + b);
        }
